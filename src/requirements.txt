@@ -1,0 +1,2 @@
+requests==2.25.1
+pactman==2.28.0

@@ -1,0 +1,12 @@
+version: "3"
+services:
+  consumer:
+    container_name: consumer
+    build: .
+    volumes:
+      - "./src:/usr/src/app"
+    env_file:
+      - .env
+    # command:
+    #  - "test"
+    # - "verify"
